@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import About from './Components/About'
+import GetStarted from './Components/GetStarted'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <GetStarted />
     </Container>
   )
 }
